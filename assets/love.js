@@ -163,13 +163,13 @@
             ctx.scale(scale, scale);
             ctx.moveTo(0, 0);
     	    ctx.lineTo(15, 15);
-    	    ctx.lineTo(60, 15);
+    	    ctx.lineTo(70, 15);
             ctx.stroke();
 
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
-            ctx.fillText("Nhấn vào đây nha Nhung Nhung ơi...", 23, 10);
+            ctx.fillText("Nhấn vào ạ!", 23, 10);
             ctx.restore();
         },
         clear: function() {
